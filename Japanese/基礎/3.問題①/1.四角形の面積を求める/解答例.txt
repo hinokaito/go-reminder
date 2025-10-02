@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+const (
+	width  = 10
+	height = 20
+)
+
+func main() {
+	fmt.Println(width * height)
+}
