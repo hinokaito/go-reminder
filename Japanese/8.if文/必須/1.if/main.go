@@ -14,15 +14,15 @@ if 条件 {
 func main() {
 
 	scores := make(map[string]int)
-	scores["saki"] = 50
-	scores["yuto"] = 85
+	scores["saki"] = 85
+	scores["yuto"] = 50
 
 	// saki の点数を採点する
 	scoring := scores["saki"]
 
 	// もし saki の点数が60以上ならば
 	if scoring >= 60 {
-		fmt.Printf("sakiは合格です")
+		fmt.Println("sakiは合格です")
 	} // sakiは合格です
 
 	// yuto の点数を採点する
