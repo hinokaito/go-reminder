@@ -11,6 +11,9 @@ func main() {
 	var intValue32 int32
 	var intValue64 int64
 
+	// 異なるサイズ同士で計算したい場合、変換が必要になります。
+	// intValue8 += int8(intValue16)など
+
 	var uintValue8 uint8
 	var uintValue16 uint16
 	var uintValue32 uint32

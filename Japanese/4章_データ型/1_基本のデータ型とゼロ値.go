@@ -19,7 +19,11 @@ func main() {
 
 	// 文字列型
 	var stringValue string
-	fmt.Println(stringValue) //
+	fmt.Println(stringValue) // ""
+
+	// rune: 文字(Unicodeコードポイント)
+	var runeValue rune
+	fmt.Println(runeValue) // 0
 
 	// bool: 真偽値
 	var boolValue bool
